@@ -12,9 +12,12 @@ Authentication Details
 This project is secured with Basic Authentication.
 
 
-Username	Password	Role
-admin	admin	ADMIN
-user	user	USER
+| Username | Password | Role  |
+| :------- | :------- | :---- |
+| admin    | admin    | ADMIN |
+| user     | user     | USER  |
+
+
 Admin has full access to create, update, delete books.
 
 User can only fetch books.
