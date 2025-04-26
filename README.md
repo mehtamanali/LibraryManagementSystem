@@ -26,9 +26,10 @@ To authorize in Swagger, click on the Authorize 🔒 button and enter the creden
 
 API Endpoints
 
-Method	Endpoint	Access	   Description
-POST   	/book	   ADMIN  	  Create a new book
-GET	    /book	   USER/ADMIN	Get all books
-GET	  /book/{id}	USER/ADMIN	Get book by ID
-PUT	   /book/{id}	   ADMIN	      Update book by ID
-DELETE	/book/{id}	ADMIN	   Delete book by ID
+| Method | Endpoint      | Access       | Description        |
+| :----- | :------------ | :----------- | :----------------- |
+| POST   | /book         | ADMIN         | Create a new book   |
+| GET    | /book         | USER / ADMIN  | Get all books       |
+| GET    | /book/{id}    | USER / ADMIN  | Get book by ID      |
+| PUT    | /book/{id}    | ADMIN         | Update book by ID   |
+| DELETE | /book/{id}    | ADMIN         | Delete book by ID   |
